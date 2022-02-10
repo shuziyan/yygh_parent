@@ -28,7 +28,7 @@ public class HospitalSetController {
     @ApiOperation(value = "获取所有医院设置信息")
     @GetMapping("/findAll")
    public Result<List<HospitalSet>> findAllHospitalSet(){
-        //调用service的方法
+        //调用service的方法1
         List<HospitalSet> list = hospitalSetService.list();
         return  Result.ok(list);
     }
