@@ -23,6 +23,9 @@ public class HospitalSetController {
 
     @Autowired
     private HospitalSetService hospitalSetService;
+    
+     @Autowired
+    private HospitalSetService hospitalSetService;
 
     // 1 查询医院设置表中所有消息
     @ApiOperation(value = "获取所有医院设置信息")
